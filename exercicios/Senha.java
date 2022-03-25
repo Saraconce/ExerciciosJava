@@ -12,6 +12,7 @@ public class Senha {
         String nome = new String("");
         String senha;
 
+
         System.out.println("Nome do Usuário: ");
         nome = scan.next();
         System.out.println("Senha: ");
@@ -20,6 +21,7 @@ public class Senha {
         while (Objects.equals(nome, senha)) {
             System.out.println("Sua senha não pode ser igual ao nome do usuário, digite novamente: ");
             senha = scan.next ();
+
 
         }
     }
