@@ -1,5 +1,3 @@
-package ExerciciosJava;
-
 import java.util.Scanner;
 
 /* Faca um programa que peça um nota, entre zero e dez.
@@ -12,11 +10,11 @@ public class Nota {
         Scanner scan= new Scanner(System.in);
 
         int nota;
-        System.out.println("ExerciciosJava.Nota: ");
+        System.out.println("Nota: ");
 
         nota= scan.nextInt();
         while (nota < 0 | nota >10) {
-            System.out.println("ExerciciosJava.Nota inválida, digite novamente: ");
+            System.out.println("Nota inválida, digite novamente: ");
             nota= scan.nextInt();
         }
     }
